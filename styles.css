@@ -1,0 +1,149 @@
+body {
+	background-color: white;
+}
+
+h1, h2, h3, ol, ul {
+	font-family: 'Palanquin', sans-serif;
+}
+
+h1, h2, h3, p, ol, ul {
+	color: #2d2d2d;
+}
+
+h1{
+	font-size: 2.2em;
+}
+
+h2{
+	font-size: 1.8em;
+}
+
+h3{
+	font-size: 1.5em;
+}
+
+p {
+	font-family: 'Sura', serif;
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+a {
+	color: #8d5ad6;
+	text-decoration: none;
+
+}
+
+a:hover {
+	opacity: 0.5;
+}
+
+.sans-serif {
+	font-family: sans-serif;
+}
+
+.center {
+	width: 100%;
+} 
+
+.image-text {
+	margin-bottom: 3em;
+}
+
+.footer {
+	background-color: #e3fdf6;
+	padding: 2em 0 2em 0;
+}
+
+.pink {
+	color: #ffa3ea;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("./images/planeter.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.spacing {
+	margin: 4em;
+}
+
+.text-center, .image-text {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 30em;
+}
+
+.portfolio-item {
+	margin: 0 1em 0 1em;
+}
+
+
+/* iPad */
+
+@media only screen and (min-width: 768px) {
+	
+	h1{
+	font-size: 2.4em;
+	}
+
+	h2{
+	font-size: 2em;
+	}
+
+	h3{
+	font-size: 1.7em;
+	}
+
+	p {
+		font-family: 'Sura', serif;
+		font-size: 1.1em;
+		line-height: 1.5em;
+	}
+
+	.portfolio-item {
+		display: inline-block;
+		width: calc(50% - 2.2em);
+		box-sizing: border-box;
+	}
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1024px) {
+
+	h1{
+		font-size: 3em;
+	}
+
+	h2{
+		font-size: 2.2em;
+	}
+
+	h3{
+		font-size: 1.9em;
+	}
+
+	p {
+		font-size: 1.2em;
+	}
+
+	.portfolio-item {
+		display: inline-block;
+		width: calc(33% - 2em);
+		box-sizing: border-box;
+	}
+}
+
+
+
