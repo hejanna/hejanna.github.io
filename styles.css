@@ -50,6 +50,10 @@ a:hover {
 	margin-bottom: 3em;
 }
 
+.small-text {
+	font-size: 0.8em;
+}
+
 .footer {
 	background-color: #e3fdf6;
 	padding: 2em 0 2em 0;
@@ -86,6 +90,11 @@ a:hover {
 
 .portfolio-item {
 	margin: 0 1em 0 1em;
+}
+
+.smaller-img {
+	height: 10em;
+	width: auto;
 }
 
 
