@@ -38,8 +38,16 @@ a:hover {
 	opacity: 0.5;
 }
 
+a.sans-serif {
+	font-size: 1.2em;
+}
+
+i {
+	font-size: 2em;
+}
+
 .sans-serif {
-	font-family: sans-serif;
+	font-family: 'Palanquin', sans-serif;
 }
 
 .center {
@@ -52,6 +60,7 @@ a:hover {
 
 .small-text {
 	font-size: 0.8em;
+	font-family: 'Palanquin', sans-serif;
 }
 
 .footer {
@@ -85,7 +94,7 @@ a:hover {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 30em;
+	max-width: 22em;
 }
 
 .portfolio-item {
@@ -120,6 +129,10 @@ a:hover {
 		line-height: 1.5em;
 	}
 
+	.text-center, .image-text {
+	max-width: 30em; 
+	}
+
 	.portfolio-item {
 		display: inline-block;
 		width: calc(50% - 2.2em);
@@ -146,6 +159,7 @@ a:hover {
 	p {
 		font-size: 1.2em;
 	}
+
 
 	.portfolio-item {
 		display: inline-block;
