@@ -1,0 +1,39 @@
+// MAIN: [Sitename], using Only Framework 3.0
+
+@import "../../bower_components/compass-mixins/lib/compass";
+
+// Base
+@import "global/colors";
+@import "global/reset";
+@import "global/variables";
+@import "global/fonts";
+@import "global/animations";
+@import "global/mixins";
+@import "global/utilities";
+@import "global/links";
+@import "global/media";
+@import "global/navigation";
+@import "global/typography";
+@import "global/grids";
+
+// Subcomponents
+//@import "subcomponents/name";
+
+// Components
+@import "components/header";
+@import "components/footer";
+@import "components/forms";
+@import "components/buttons";
+@import "components/tables";
+
+// Compositions
+@import "compositions/layout";
+
+// Pages
+//@import "pages/name";
+
+// Styleguide
+@import "global/styleguide";
+
+// Print
+@import "global/print";
