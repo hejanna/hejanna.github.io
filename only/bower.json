@@ -1,0 +1,26 @@
+{
+  "name": "suez-gk",
+  "authors": [
+	"Sogeti Helsingborg"
+  ],
+  "description": "Bower dependencies, mainly for user-facing frontend libraries",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+	"**/.*",
+	"node_modules",
+	"bower_components"
+  ],
+  "dependencies": {
+	"compass-mixins": "^1.0.2",
+	"fastclick": "^1.0.6",
+	"fragment": "*",
+	"html5shiv": "^3.7.3",
+	"fontfaceobserver": "^2.0.7",
+	"lazysizes": "^2.0.0",
+	"loadcss": "^1.2.0",
+	"normalize-css": "^5.0.0",
+	"respimage": "^1.4.2"
+  }
+}
